@@ -72,6 +72,7 @@ The entire project has been developed using Python programming language, utilizi
   7. Change the working directory to `website` by using the `cd` command.
   8. Execute `pip install -r requirements.txt`.
   9. Enter `python` shell and `import nltk`. Execute `nltk.download('stopwords')` and exit the shell.
+  10. Create an account on Reddit, and get your credentials for using the API. Enter the credentials in `detect_flair()` function in the `app.py` file.
   10. Now, execute: `python app.py` and it will point to the `localhost` with the port.
   11. Copy this `IP Address` on a web browser and use the application.
     
