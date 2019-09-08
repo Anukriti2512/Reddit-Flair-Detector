@@ -57,7 +57,7 @@ def getStemmedText(text):
     
 def detect_flair(url,loaded_model):
 
-    reddit = praw.Reddit(client_id='8kRfdrPdpbJe9Q', client_secret='qeSfFi6kizAdurAFL790ZhQL_uM', user_agent='Anukriti Jain', username = 'ameowkriti', password = 'Jain@123')
+    reddit = praw.Reddit(client_id='#', client_secret='#', user_agent='#', username = '#', password = '#')
     ans = "Invalid URL!"
     if(len(url)==0):
         return ans
